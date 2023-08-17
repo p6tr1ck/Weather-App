@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-items {
+    border-radius: 25px;
+    padding: 50px 35px;
+    width: 40%;
+    margin-top: 75px;
+    background-color: #000000;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-navigation {
+    position: relative;
+}
+
+.left-navigation span {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    font-size: 25px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #242424;
+    border: none;
+    max-width: 350px;
+    padding-left: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.search::placeholder {
+    color: #fff;
+}
+
+
+
+.temperature {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.right-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.weather-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.city {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.weather-description {
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #242424;
+}
+
+.weather-image {
+    margin: 20px;
+    height: 100px;
+}
+
+.temperature-city {
+    font-size: 25px;
+    margin-bottom : 20px;
+}
+
+.max-min-description {
+    display: flex;
+}
+
+.min-temp {
+    margin-right: 20px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-item {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 45%;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-top: 10px;
+    background-color: #242424;
+}
+
+.section-item span {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}

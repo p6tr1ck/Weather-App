@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-items">
+            <nav class="navigation">
+                <div class="left-navigation">
+                    <span class="material-symbols-outlined">search</span>
+                    <input class="search" placeholder="City, State"></button>
+                </div>
+                <div class="right-navigation">
+                    <button id="celsius" class="temperature">&degC</button>
+                    <button id="farenheit" class="temperature">&degF</button>
+                </div>
+            </nav>
+            <div class="weather-information">
+                <div class="city">Delano, California</div>
+                <div class="date">Thursday, March 12, 2023 at 10:30PM</div>
+                <div class="weather-description">Clouds</div>
+                <img class="weather-image" src="weather/64x64/day/353.png" alt="">
+                <div class="temperature-city">11&deg</div>
+                <div class="max-min-description">
+                    <div class="min-temp">Min: 10&deg</div>
+                    <div class="max-temp">Max: 12&deg</div>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="section-item">
+                    <span class="material-symbols-outlined">device_thermostat</span>
+                    <div class="description">
+                        <div class="description-one">Feels Like</div>
+                        <div class="stats" id="feels-like">80&deg</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <span class="material-symbols-outlined">humidity_percentage</span>
+                    <div class="description">
+                        <div class="description-one">Humidity</div>
+                        <div class="stats" id="humidity">93%</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <span class="material-symbols-outlined">air</span>
+                    <div class="description">
+                        <div class="description-one">Wind</div>
+                        <div class="stats" id="wind">8.1 mph</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <span class="material-symbols-outlined">rainy</span>
+                    <div class="description">
+                        <div class="description-one">Precipitation</div>
+                        <div class="stats" id="precipitation">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
